@@ -1,69 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300;1,400&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    margin-left: 22rem;
-    margin-right: 22rem;
+  margin-left: 22rem;
+  margin-right: 22rem;
 }
 
 .cv {
-    margin-left: 1rem;
-    margin-top: 2rem;
-    background-color: rgb(237, 237, 237);
+  margin-left: 1rem;
+  margin-top: 2rem;
+  background-color: rgb(237, 237, 237);
 }
 
 h2 {
-    color: rgb(55, 187, 248);
-    font-weight: 500;
-    
+  color: rgb(55, 187, 248);
+  font-weight: 500;
+  padding-top: 20px;
+}
+h3 {
+  padding-top: 20px;
 }
 
 .header {
-    display: flex;
-    padding: 1rem 0 0 1rem;
+  display: flex;
+  padding: 1rem 0 0 1rem;
 }
 
 .photo img {
-    border-radius: 50%;
-    width: 12rem;
-    height: 14rem;
-    border: 5px ridge rgb(0 20 20 / 10%);
-    
+  border-radius: 50%;
+  width: 12rem;
+  height: 14rem;
+  border: 5px ridge rgb(0 20 20 / 10%);
 }
 
 .info {
-    padding-left: 3rem;
-    padding-top: 3rem;
+  padding-left: 3rem;
+  padding-top: 3rem;
 }
 
 .left {
-    border-left: 2px dashed rgb(160, 160, 160);
-    padding-left: 1rem;
-    margin-left: 1rem;
+  border-left: 2px dashed rgb(160, 160, 160);
+  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .right {
-    border-left: 2px dashed rgb(160, 160, 160);
-    margin-left: 3rem;
-    padding-left: 1rem;
+  border-left: 2px dashed rgb(160, 160, 160);
+  margin-left: 3rem;
+  padding-left: 1rem;
 }
 
 .skills {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .body {
-    display: flex;
+  display: flex;
 }
 
-p{
-    
-    color: rgb(42 42 42);
-  
+p {
+  color: rgb(42, 42, 42);
+  padding-top: 15px;
+}
+.project h4 {
+  padding-top: 15px;
 }
